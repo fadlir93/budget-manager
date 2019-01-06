@@ -19,4 +19,4 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(passport.initialize());
 
-app.set('budgetsecret', config.secret)
+app.set('budgetsecret', config.secret);
